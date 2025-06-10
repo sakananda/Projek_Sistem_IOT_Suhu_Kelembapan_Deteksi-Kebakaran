@@ -1,0 +1,59 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.sensor-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 30px;
+    flex: 1 1 200px;
+    min-width: 200px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h2 {
+    margin: 0 0 10px;
+    color: #555;
+}
+
+.card p {
+    font-size: 28px;
+    color: #000;
+    margin: 0;
+}
+
+.card.suhu {
+    border-top: 5px solid #ff6b6b;
+}
+.card.kelembapan {
+    border-top: 5px solid #4ecdc4;
+}
+.card.asap {
+    border-top: 5px solid #ffa502;
+}

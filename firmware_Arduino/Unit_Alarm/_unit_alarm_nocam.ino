@@ -26,8 +26,8 @@ const char* MQTT_CLIENT_ID_ALARM_DEVICE = "esp32_s3_alarm";
 const char* MQTT_TOPIC_SENSOR_ALARM_STATUS = "sensor/alarm";
 
 // --- Konfigurasi Telegram ---
-const String TELEGRAM_BOT_TOKEN = "7747537035:AAEZ84UCNlntRaP_uNKDOJK-DH_Yro3XYlM"; 
-const String AUTHORIZED_TELEGRAM_CHAT_ID = "1416038310";       
+const String TELEGRAM_BOT_TOKEN = ""; // isi dengan Token dari Bot Telegram
+const String AUTHORIZED_TELEGRAM_CHAT_ID = "";  // isi dengan chatid dari akun Telegram
 
 // --- Konfigurasi Pin Hardware ---
 #define MOSFET_PIN 38        
